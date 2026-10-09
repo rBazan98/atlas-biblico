@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "browser_errors": [],
+  "flows": [
+    "voluntary onboarding without automatic popup",
+    "keyboard guide and focus return",
+    "direct stage selection advances lesson",
+    "exact view restoration on pause",
+    "progress resumes after reload without forced opening",
+    "ES/EN guided copy",
+    "scoped translation question with corrective feedback",
+    "same-author access remains distinct from actual use",
+    "pending connection keeps no arrowhead",
+    "scenario-specific assessment identifiers",
+    "completion persistence and replay",
+    "closed-drawer guide recovery",
+    "320/390/768 px layouts",
+    "reduced motion",
+    "storage-denied fallback"
+  ]
+}

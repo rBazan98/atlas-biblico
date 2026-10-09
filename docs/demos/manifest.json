@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-07",
+  "application_version": "1.1.0-preview.2",
+  "recorded_application_commit": "15ffc5eb380293d3318a17e617fb0c81509365e4",
+  "interface_language": "es",
+  "recordings": [
+    {
+      "file": "navegacion-nodos-20s.mp4",
+      "poster": "navegacion-nodos.jpg",
+      "title": {
+        "es": "Navegación por nodos",
+        "en": "Node navigation"
+      },
+      "duration_seconds": 20,
+      "width": 1440,
+      "height": 900,
+      "frames_per_second": 30,
+      "frame_count": 600,
+      "codec": "h264",
+      "audio": false,
+      "bytes": 2456577,
+      "sha256": "ec1f923734dfc7dd75dc2f206711e0490a9ed89e4105bbe6106c5cac527db42e",
+      "actions": [
+        {
+          "second": 2.96,
+          "action": "Abrir el nodo de Génesis"
+        },
+        {
+          "second": 6.12,
+          "action": "Abrir el nodo de Deuteronomio"
+        },
+        {
+          "second": 8.95,
+          "action": "Abrir el nodo de Isaías"
+        },
+        {
+          "second": 12.0,
+          "action": "Abrir el nodo de Romanos"
+        },
+        {
+          "second": 14.06,
+          "action": "Arrastrar el mapa hacia los nodos de las cartas paulinas"
+        },
+        {
+          "second": 15.51,
+          "action": "Abrir el nodo de 1 Corintios"
+        },
+        {
+          "second": 18.11,
+          "action": "Abrir el nodo de 1 Tesalonicenses"
+        }
+      ]
+    },
+    {
+      "file": "exploracion-libre-20s.mp4",
+      "poster": "exploracion-libre.jpg",
+      "title": {
+        "es": "Exploración y evidencia",
+        "en": "Exploration and evidence"
+      },
+      "duration_seconds": 20,
+      "width": 1440,
+      "height": 900,
+      "frames_per_second": 30,
+      "frame_count": 600,
+      "codec": "h264",
+      "audio": false,
+      "bytes": 1704196,
+      "sha256": "43f4ca266d6fb6c90a8d5f24c91cab0f55ecf79bcb2e8c851b1e77a4a88330d0",
+      "actions": [
+        {
+          "second": 0.99,
+          "action": "Página iniciada: mapa libre de los 73 libros"
+        },
+        {
+          "second": 3.03,
+          "action": "Buscar un libro"
+        },
+        {
+          "second": 5.77,
+          "action": "Explorar 1 Corintios y sus conexiones"
+        },
+        {
+          "second": 7.36,
+          "action": "Acceso plausible de 1 Tesalonicenses a 1 Corintios: autor común"
+        },
+        {
+          "second": 11.64,
+          "action": "Consultar las condiciones evaluadas y las fuentes"
+        },
+        {
+          "second": 14.72,
+          "action": "Pasar a las etapas en el tiempo conservando la conexión"
+        },
+        {
+          "second": 16.3,
+          "action": "Abrir el contexto y las etapas conectadas"
+        },
+        {
+          "second": 17.62,
+          "action": "Ajustar el mapa temporal para ver las etapas completas"
+        }
+      ]
+    }
+  ]
+}

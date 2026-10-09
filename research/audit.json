@@ -1,0 +1,586 @@
+[
+  {
+    "book_id": "book_gen",
+    "source_id": "src_intro_01",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Genesis&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "06c17f4859ae7f1c88ef3c3eaab0a8e6cd0c745a86586e3e2b8b7053c46b63fa",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_exo",
+    "source_id": "src_intro_02",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Exodus&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "04b6782d771e775a54687b204464666ae87a4532c56fcc9084658a3236cc28d2",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_lev",
+    "source_id": "src_intro_03",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Leviticus&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5a6f23d8dcc91f53e05fbc434b240c156fcd04efd2e348798e9d456951ed6472",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_num",
+    "source_id": "src_intro_04",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Numbers&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "3de98d0641a5f1e5c994bd3e79b22312af27eff1b943298e4503725730fd8951",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_deu",
+    "source_id": "src_intro_05",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Deuteronomy&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "74df3af416d9368ff7bb9eb4ddb9ce18f22b98b5a35857613e7a6e57ea42eab1",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jos",
+    "source_id": "src_intro_06",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Joshua&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "1c942a538ca75e6aab03eda94182f5fbd40a590f5602c92334981c7f162c5045",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jdg",
+    "source_id": "src_intro_07",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Judges&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c375b85860489881beca2e24ad246194c05b4cfad39caeb8e58231570acbad1a",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_rut",
+    "source_id": "src_intro_08",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Ruth&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "63548e1f7776f0c5fba22adad5df1babe2d8d03d31c373434472ef9fc958ee3f",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1sa",
+    "source_id": "src_intro_09",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Samuel&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "e81471010162aca3b4039dda5907ffc5198156b53d1c9c01b219c85e2be32f29",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2sa",
+    "source_id": "src_intro_09",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Samuel&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "e81471010162aca3b4039dda5907ffc5198156b53d1c9c01b219c85e2be32f29",
+    "joint_introduction": true
+  },
+  {
+    "book_id": "book_1ki",
+    "source_id": "src_intro_11",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Kings&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "4d179ca0e3644449dc7fe54dd5392d5dea43f20a951e9e7c926a6ee4c2284ef6",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2ki",
+    "source_id": "src_intro_11",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Kings&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "4d179ca0e3644449dc7fe54dd5392d5dea43f20a951e9e7c926a6ee4c2284ef6",
+    "joint_introduction": true
+  },
+  {
+    "book_id": "book_1ch",
+    "source_id": "src_intro_13",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Chronicles&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "46fa8f8b7c02e35b3f653a9975c77c695b59b33bfc283f6281b78666be9f1da6",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2ch",
+    "source_id": "src_intro_14",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Chronicles&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "feccb48fda08a01b50d8e15f4b3ddc2e3793640f529eee0bd2477866bcaf09ba",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_ezr",
+    "source_id": "src_intro_15",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Ezra&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "6764a34681f3868d9a8efa058993a8be9d0d0061629ea258dfffcac842a82603",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_neh",
+    "source_id": "src_intro_16",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Nehemiah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c3e1055db32c024dfb89e780ac8b0b93602654bea47081497b59607b5d436b89",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_tob",
+    "source_id": "src_intro_17",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Tobit&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "dcad5e6a81e3a329ae0f8806729a193ee676b8646c2c8e4a12a9bdfe9b70dd72",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jdt",
+    "source_id": "src_intro_18",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Judith&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "86755a9d1ce8935c3d8453aaa437ab5bea09d7c7b814f98dd56bb99fc3346ff8",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_est",
+    "source_id": "src_intro_19",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Esther&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "a607323f1e6fcecccc193230e364df3fe318738aca4ae0587d2f2ddd5f872ba3",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1ma",
+    "source_id": "src_intro_20",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Maccabees&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "36971b94844ea17b4fff372430887d86b3be5e47032e984e697059c465cc276e",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2ma",
+    "source_id": "src_intro_21",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Maccabees&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "634a105b92a808a799000cc7c71eb7a2af5ea65b8b42d5c46555ed3a1e496d2f",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_job",
+    "source_id": "src_intro_22",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Job&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c99101859919f46ff19977cd4c3627a65cbf3a277032eb575b083d5413634413",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_psa",
+    "source_id": "src_intro_23",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Psalms&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "0e5f659f308ab4b4073e288cb11acd0e0b54c8d6f2098b0c4c448fcb12a01127",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_pro",
+    "source_id": "src_intro_24",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Proverbs&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "028692835ed94e6b58d882f0203c5e06e352bdf570b78d6d20d44ec922a9520d",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_ecc",
+    "source_id": "src_intro_25",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Ecclesiastes&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "09fc383f1cc4854143e9bf4bef99315f5d87506742aceb298346f4f5e8d951c5",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_sng",
+    "source_id": "src_intro_26",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Song%20of%20Songs&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5eb233e5643903682512a8a2723966cfac17d4b47c80c2aae98f66fa44249ecd",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_wis",
+    "source_id": "src_intro_27",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Wisdom&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "7494f6b6e36575243d4283c369aebc89b29a1b02ccc26b654131f1a589f21d9b",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_sir",
+    "source_id": "src_intro_28",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Sirach&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "cdf367c1dbdc25bcce70f3788db7f2168ed005bfd626fdf52d3bce70195ab59b",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_isa",
+    "source_id": "src_intro_29",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Isaiah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "d7760bd1f676a4b38524f8cf5ae5c5ac756c98e16610cb20dadd6a7a52dc1b15",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jer",
+    "source_id": "src_intro_30",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Jeremiah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "7eb299018e26956a572f3b99aea110077b14fba318a64e68b80f0ed20df39714",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_lam",
+    "source_id": "src_intro_31",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Lamentations&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "8d9c1ba095664ffa25d7392c5c23ba55989f1abcf2850044b161c9c85cbe7b55",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_bar",
+    "source_id": "src_intro_32",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Baruch&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5521ace2dfb2ca2c8f48725febd62bf8830c75f2a9db378e75f12a72b6f319c3",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_ezk",
+    "source_id": "src_intro_33",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Ezekiel&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "f0a79c7d139911481a90f3b75b9da18ed3056c4b005e6d303a9b0b9170ce9721",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_dan",
+    "source_id": "src_intro_34",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Daniel&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "7dc83fa9b47be8607867851eb703addb727234099839f48bb9ad5d2dc3c751f7",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_hos",
+    "source_id": "src_intro_35",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Hosea&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "ce51f63ecbf3fbcadf4aa0ccead7a59096c49d80985b93d73d1e5352fd4a714a",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jol",
+    "source_id": "src_intro_36",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Joel&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "34ecd4fa32c329c920cd14adfce23aafbe24815a6f002dbd31a952d872502b9c",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_amo",
+    "source_id": "src_intro_37",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Amos&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "19cd290c50c479cdcc49e4c96e083724e4472431442abbd350dee2a3572cd05d",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_oba",
+    "source_id": "src_intro_38",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Obadiah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "3a719f391b46e2dae67fd2da33c7cdb5391069a63cf2c1d8d02fd540825d6a7f",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jon",
+    "source_id": "src_intro_39",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Jonah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "caea2aa0b073130884044ed80ea6b8e247dfff54b1115a34e483f7095264c39d",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_mic",
+    "source_id": "src_intro_40",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Micah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "3041df8f8dc638fa9bf7a8ffbeefe751d12e16415ba81412ea07859d0843e0ea",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_nam",
+    "source_id": "src_intro_41",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Nahum&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5ce773ee9b19ebe8b0dbf2760f3b227edc54d47ce7be9dbdc08cbf77ec6bfd03",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_hab",
+    "source_id": "src_intro_42",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Habakkuk&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "e3cb2ec80c935cafa19ae7cd8dcc46570c324b21811cd2ac1450148a8024a2ca",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_zep",
+    "source_id": "src_intro_43",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Zephaniah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "3802f688f00caded65d2871a8c7a8e19171ffe35ace57f201836b1e7db65eb4e",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_hag",
+    "source_id": "src_intro_44",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Haggai&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5131a4fc3a4e31761d337a4152437673cb6997a507c3141fd12970e6e2537c28",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_zec",
+    "source_id": "src_intro_45",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Zechariah&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "0bc2987f6fd4fc113515ebe353248611b640b3ff0eae087d3f12e1e7870b451a",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_mal",
+    "source_id": "src_intro_46",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Malachi&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "ee22fc44d199d146d15cd4a11247b8d559423eaf7c4d08174dd5a61dc574025c",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_mat",
+    "source_id": "src_intro_47",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Matthew&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "9e75ad477eecfd111835f6c0ed96142b3dae6c1ff9c88dad59182e341aff3ef4",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_mrk",
+    "source_id": "src_intro_48",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Mark&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "8c0d7d152c541f737adbee22fd4da8f3dd734179ae3877b3d7ec535e36612249",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_luk",
+    "source_id": "src_intro_49",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Luke&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "3a4689898f5bb4c83eca1a04b00ec825a4807c3e87a985deecc41c23ee6687c6",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jhn",
+    "source_id": "src_intro_50",
+    "url": "https://www.biblegateway.com/passage/intro/?search=John&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "df803efc3e27d348ba2c8b1572e59d4f2b14febe887cba3c24652d30935c1166",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_act",
+    "source_id": "src_intro_51",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Acts&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "2665b8fd0d6320ae22584806abafa05f38394da5e43039e832003dcd11d59f9d",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_rom",
+    "source_id": "src_intro_52",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Romans&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c8dbefa9d4cf61dc0282a977f5f8be4efa925c4efb331e1f0a536c20dd98694d",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1co",
+    "source_id": "src_intro_53",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Corinthians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "5dc18ec68ebdd59289139bc75200248ad1687efa111fb779bca19b293b0691d3",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2co",
+    "source_id": "src_intro_54",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Corinthians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "7c55cba8de411724e3aa420298ec848a52f417fe6e9f2c276142cc3a3a2d401e",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_gal",
+    "source_id": "src_intro_55",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Galatians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "6ca11855427e764b6cfd696189742bc310891cae26199368f504a64cef8000fc",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_eph",
+    "source_id": "src_intro_56",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Ephesians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "e8f8b08bfbb06c546abccaf6c01e907ae8597d85eceedeed546513d0ffc2e91f",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_php",
+    "source_id": "src_intro_57",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Philippians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "56b887f76e67ac2565b7b07a6227c62bc9316e99831f3bdc46d262e07d270527",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_col",
+    "source_id": "src_intro_58",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Colossians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c2ec3cbaa024926ba227c86f5f668f3470c6aafcf60b4f3ce5ef45c7e44ed555",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1th",
+    "source_id": "src_intro_59",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Thessalonians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "4b8fa89dbe9ba18d13e52d726f243952a297bdbb2b4485fb84ee77296953ef9a",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2th",
+    "source_id": "src_intro_60",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Thessalonians&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "8173d713698ad5ec97d08d15b483b2c97d2b45ea13508fda598718a014b16ee1",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1ti",
+    "source_id": "src_intro_61",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Timothy&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "57bbec30f9429d109d0536021e489460575831c61772b1a0fe452d015382131c",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2ti",
+    "source_id": "src_intro_62",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Timothy&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "6dab18e998f628a2b3c38ac0fbe77ec703f0a430571479ec73a25b020197ddbc",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_tit",
+    "source_id": "src_intro_63",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Titus&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "80e4586e66b839d7967bcd958ba905aca2a6bc0bdb378589b6d14f3767beb8db",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_phm",
+    "source_id": "src_intro_64",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Philemon&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "c508a418a4240ebf5eaca0e5db818ddd1fd7474bce279fd519c5b7021e3f7a8f",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_heb",
+    "source_id": "src_intro_65",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Hebrews&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "4f61977acb8e5df78a5e0c719e7c1664654427ff509b94d64ad86641f4f4f6c4",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jas",
+    "source_id": "src_intro_66",
+    "url": "https://www.biblegateway.com/passage/intro/?search=James&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "4b2113fef195b9306d48328073bc0cc82b6a778771f440f7bf6cb6d5cac773da",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1pe",
+    "source_id": "src_intro_67",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20Peter&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "2aac8453ad9d71094d0a655aa6dd99cebe771e16c47f0c6273306a54a28b3cb5",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2pe",
+    "source_id": "src_intro_68",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20Peter&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "d733fa885703d8ffbc0c5c4cb7d23b89b963c4a4d4225d7939836d770ca68e09",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_1jn",
+    "source_id": "src_intro_69",
+    "url": "https://www.biblegateway.com/passage/intro/?search=1%20John&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "668c5ffd64c54eecafff4deb5255197d7108f7e5a849b9d324a2e4c127421eb1",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_2jn",
+    "source_id": "src_intro_70",
+    "url": "https://www.biblegateway.com/passage/intro/?search=2%20John&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "1385710e095f10c031fdfa9b0b27b625072e5b4707294c36190b3f698a77adf2",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_3jn",
+    "source_id": "src_intro_71",
+    "url": "https://www.biblegateway.com/passage/intro/?search=3%20John&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "daf7dcd13713cbcd4745572052a5e217049ef10fc7237eeb11cd48aa1ddf59fe",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_jud",
+    "source_id": "src_intro_72",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Jude&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "d8afd5d253d055064cdabd0014dbee409d2f15cb56e83cb152db7a3b430db75e",
+    "joint_introduction": false
+  },
+  {
+    "book_id": "book_rev",
+    "source_id": "src_intro_73",
+    "url": "https://www.biblegateway.com/passage/intro/?search=Revelation&version=NABRE",
+    "consulted_on": "2026-10-06",
+    "private_capture_sha256": "2b9ca168fd59c83fbfec91fe83c8aa24bd90663f358a0fa48c3a5915deedc862",
+    "joint_introduction": false
+  }
+]

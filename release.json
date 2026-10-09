@@ -1,0 +1,44 @@
+{
+  "version": "1.1.0-preview.2",
+  "channel": "preview",
+  "date": "2026-10-07",
+  "repository": "https://github.com/rBazan98/atlas-biblico",
+  "git_tag": "v1.1.0-preview.2",
+  "schema_version": "0.2",
+  "scope": {
+    "books": 73,
+    "stages": 86,
+    "scenarios": 2,
+    "sources": 155,
+    "admitted_per_scenario": 48,
+    "pending_per_scenario": 9
+  },
+  "historical_reconstructions_are_revisable": true,
+  "validation": {
+    "data": true,
+    "browser": true,
+    "learning_experience": true,
+    "historical_registry_preserved": true,
+    "free_exploration": true
+  },
+  "runtime_sha256": {
+    "index.html": "b54ac65def701604615f1fae5f33c9087ee90cfae3641f4aa973336b3611c384",
+    "styles.css": "039582568c2e52eff3dbb7c4d52766c8a7b4a153e8bd1bef19fa070b1ddd9387",
+    "language.css": "22644f33eba0085ea9e5df30a2617a4fee5e1b0b2a2174d574c2c568176b8b20",
+    "portfolio.css": "49a828384abba31d87f5c18e86a1f6ea02991fd2e021c94b5b9acdef443c5d6a",
+    "app.js": "ecd51bb62a0d5f7ff13331931ab3478094fdf771c3c8a6a855aa839454c31bc8",
+    "overview.js": "ad91fba81b323c10356334078dba246381b00581ecebe86eab9db80ec81daada",
+    "i18n.js": "a46d7cd63cc62b7e5b3da6c0dad332c1ecdd3ff254908625f2a0aa4564e1a80e",
+    "registro.json": "276fa92768ee8cfad16923ac772901f458740ddaf25a42f46eaeb92c3f51b5e3",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "locales/languages.json": "5659a952d2c71d5b9a941d8f9fd9f213e51c26401fba86d710d1d0c49e2eb118",
+    "locales/es.json": "d5a391acead8dc26a340e7a40a9bdd34ce4c162a0343979f7728961d41a6aedf",
+    "locales/en.json": "24b320f01dc4e75d6c2cd3698d5086d9a2ad401d01c61d90e819cd42452d4c94",
+    "experience.js": "e5da2fbef4ce5afa8c4aa615cd6b57a4a06537c80d1562e3da6505bb720064bb",
+    "experience.css": "749e62b1472fb58025c19474a97c78c5d291b43721e54259355864c0f86fef1f",
+    "explore.js": "3f05347197740770359370bd8d3932836a607426464b31b8dd89b76384fd7264",
+    "explore.css": "57be86351bc86474dc1f04791d84a81bc06ca180dd19427db5bbad3b2818418e"
+  },
+  "baseline_git_tag": "v1.0.0",
+  "previous_git_tag": "v1.1.0-preview.1"
+}

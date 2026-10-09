@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "application_version": "1.1.0-preview.2",
+  "runtime_files_verified": 16,
+  "historical_registry_matches_v1_0_0": true,
+  "checks": [
+    "Pages and full-source ZIP integrity",
+    "runtime SHA-256 manifest",
+    "relative script/style paths",
+    "locale files present",
+    "matching inner project version and assets",
+    "no source caches, credentials or Git history",
+    "inner project ZIP does not contain itself"
+  ]
+}

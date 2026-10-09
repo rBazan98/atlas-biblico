@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "browser_errors": [],
+  "flows": [
+    "73 circular book nodes and 48 access-ground labels",
+    "non-overlapping overview labels",
+    "11 inferred-access connections and grounds filter",
+    "same-author access without a quotation or claimed reuse",
+    "Daniel compilation receiver distinct from prior authors",
+    "bilingual access reasons and assumptions",
+    "presentation mode",
+    "overview SVG/PNG exports",
+    "pointer panning and fit",
+    "keyboard drawer focus",
+    "mobile catalogue and detail drawers",
+    "73-book catalogue",
+    "86-stage corpus",
+    "book/stage views and internal connections",
+    "admitted/candidate distinction",
+    "scenario authorship/dates",
+    "English/Spanish round trip",
+    "search and filters",
+    "neighborhood",
+    "keyboard selection",
+    "SVG/PNG/JSON/CSV/ZIP downloads",
+    "mobile overflow",
+    "GitHub Pages repository path prefix"
+  ]
+}

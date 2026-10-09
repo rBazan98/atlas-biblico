@@ -1,0 +1,7 @@
+.research-cache/
+__pycache__/
+*.pyc
+proyecto.zip
+qa/*.png
+qa/export.*
+qa/*-export.*

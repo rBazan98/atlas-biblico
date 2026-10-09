@@ -1,0 +1,363 @@
+{
+  "reviewed_on": "2026-10-06",
+  "schema_version": "0.2",
+  "scope": "Focused review of plausible access beyond explicit biblical quotations; not a complete pairwise corpus study.",
+  "method": "Read published introductions and focused primary passages in translation; review attribution, temporal order, linguistic/editorial continuity and specific comparison grounds. No physical exemplar requirement or original manuscript collation.",
+  "source_access": "Introductions read from private captures documented in audit.json; focused primary sources and the synoptic synthesis inspected online. Kings 22 and Chronicles 34 inspected on Bible Gateway when USCCB fetching was blocked.",
+  "witness_dependence": "Complementary grounds may share an editorial reconstruction; repeated commentaries do not create independent ancient witnesses.",
+  "cases": [
+    {
+      "evaluation_id": "candidate_mark_matt",
+      "access_kind": "literary_transmission",
+      "from_stage_id": "stage_mrk",
+      "to_stage_id": "stage_mat",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Bajo la prioridad de Marcos, la lengua común, el orden narrativo y las reelaboraciones específicas hacen plausible que el redactor pudiera consultar ese relato anterior. No se exige una cita explícita ni conocer su ejemplar exacto.",
+      "assumptions": [
+        "Se adopta la prioridad de Marcos y su función de fuente propuesta; otras soluciones sinópticas requieren una evaluación diferente."
+      ],
+      "sources": [
+        {
+          "id": "src_synoptic",
+          "url": "https://mobile.catholic-resources.org/Bible/Synoptic_Problem.htm",
+          "locators": [
+            "Prioridad de Marcos: orden, redacción y dificultades corregidas."
+          ]
+        },
+        {
+          "id": "src_intro_48",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Mark&version=NABRE",
+          "locators": [
+            "Introducción: fecha y lengua del relato."
+          ]
+        },
+        {
+          "id": "src_intro_47",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Matthew&version=NABRE",
+          "locators": [
+            "Introducción: fuentes y composición."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "candidate_mark_luke",
+      "access_kind": "literary_transmission",
+      "from_stage_id": "stage_mrk",
+      "to_stage_id": "stage_luk",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Bajo la prioridad de Marcos, la lengua común, el orden narrativo y las reelaboraciones específicas hacen plausible que el redactor pudiera consultar ese relato anterior. No se exige una cita explícita ni conocer su ejemplar exacto.",
+      "assumptions": [
+        "Se adopta la prioridad de Marcos y su función de fuente propuesta; otras soluciones sinópticas requieren una evaluación diferente."
+      ],
+      "sources": [
+        {
+          "id": "src_synoptic",
+          "url": "https://mobile.catholic-resources.org/Bible/Synoptic_Problem.htm",
+          "locators": [
+            "Prioridad de Marcos: orden, redacción y dificultades corregidas."
+          ]
+        },
+        {
+          "id": "src_intro_48",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Mark&version=NABRE",
+          "locators": [
+            "Introducción: fecha y lengua del relato."
+          ]
+        },
+        {
+          "id": "src_intro_49",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Luke&version=NABRE",
+          "locators": [
+            "Introducción: fuentes y composición."
+          ]
+        },
+        {
+          "id": "src_access_luke_1",
+          "url": "https://bible.usccb.org/bible/luke/1",
+          "locators": [
+            "Lucas 1:1–4: relatos anteriores y tarea de composición."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "candidate_luke_acts",
+      "access_kind": "editorial_continuity",
+      "from_stage_id": "stage_luk",
+      "to_stage_id": "stage_act",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "La remisión a un primer relato y la identificación del proyecto Lucas–Hechos respaldan acceso al antecedente durante la composición de Hechos, sin exigir una cita de sus versículos.",
+      "assumptions": [
+        "Se acepta la identificación del primer relato con Lucas y la continuidad de autoría o de responsabilidad editorial de los dos volúmenes."
+      ],
+      "sources": [
+        {
+          "id": "src_access_acts_1",
+          "url": "https://bible.usccb.org/bible/acts/1",
+          "locators": [
+            "Hechos 1:1–2."
+          ]
+        },
+        {
+          "id": "src_intro_49",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Luke&version=NABRE",
+          "locators": [
+            "Introducción: obra de dos volúmenes."
+          ]
+        },
+        {
+          "id": "src_intro_51",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Acts&version=NABRE",
+          "locators": [
+            "Introducción: continuidad literaria."
+          ]
+        },
+        {
+          "id": "src_access_luke_1",
+          "url": "https://bible.usccb.org/bible/luke/1",
+          "locators": [
+            "Lucas 1:1–4."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "candidate_sam_chron",
+      "access_kind": "literary_transmission",
+      "from_stage_id": "stage_1sa",
+      "to_stage_id": "stage_1ch",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Los paralelos narrativos concretos y la reconstrucción del trabajo del Cronista hacen plausible acceso a antecedentes de Samuel–Reyes antes de reescribirlos. La inferencia se limita a esos materiales.",
+      "assumptions": [
+        "Se adopta la reconstrucción del Cronista como recopilador posterior que tuvo disponibles antecedentes hebreos de Samuel–Reyes; sus ediciones completas permanecen abiertas."
+      ],
+      "sources": [
+        {
+          "id": "src_access_samuel_31",
+          "url": "https://bible.usccb.org/bible/1samuel/31",
+          "locators": [
+            "1 Samuel 31."
+          ]
+        },
+        {
+          "id": "src_access_chronicles_10",
+          "url": "https://bible.usccb.org/bible/1chronicles/10",
+          "locators": [
+            "1 Crónicas 10 y notas."
+          ]
+        },
+        {
+          "id": "src_intro_13",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Chronicles&version=NABRE",
+          "locators": [
+            "Introducción: responsable, situación y fuentes."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "candidate_kings_chron",
+      "access_kind": "literary_transmission",
+      "from_stage_id": "stage_2ki",
+      "to_stage_id": "stage_2ch",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Los paralelos narrativos concretos y la reconstrucción del trabajo del Cronista hacen plausible acceso a antecedentes de Samuel–Reyes antes de reescribirlos. La inferencia se limita a esos materiales.",
+      "assumptions": [
+        "Se adopta la reconstrucción del Cronista como recopilador posterior que tuvo disponibles antecedentes hebreos de Samuel–Reyes; sus ediciones completas permanecen abiertas."
+      ],
+      "sources": [
+        {
+          "id": "src_access_kings_22",
+          "url": "https://www.biblegateway.com/passage/?search=2%20Kings%2022&version=NABRE",
+          "locators": [
+            "2 Reyes 22."
+          ]
+        },
+        {
+          "id": "src_access_chronicles_34",
+          "url": "https://www.biblegateway.com/passage/?search=2%20Chronicles%2034&version=NABRE",
+          "locators": [
+            "2 Crónicas 34:8–28 y notas."
+          ]
+        },
+        {
+          "id": "src_intro_13",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Chronicles&version=NABRE",
+          "locators": [
+            "Introducción: responsable, situación y fuentes."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "candidate_john_epilogue",
+      "access_kind": "editorial_continuity",
+      "from_stage_id": "stage_jhn_main",
+      "to_stage_id": "stage_jhn_epilogue",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Si el capítulo 21 es un epílogo añadido, su responsable pudo conocer el cuerpo al que lo incorporó. El cierre anterior y la referencia al testimonio escrito respaldan esta reconstrucción.",
+      "assumptions": [
+        "Se adopta la hipótesis editorial de un epílogo posterior; no se identifica al redactor con un apóstol ni se fecha su vida."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_50",
+          "url": "https://www.biblegateway.com/passage/intro/?search=John&version=NABRE",
+          "locators": [
+            "Introducción: cierre anterior y epílogo añadido."
+          ]
+        },
+        {
+          "id": "src_access_john_21",
+          "url": "https://bible.usccb.org/bible/john/21",
+          "locators": [
+            "Juan 21:24–25 y notas."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "access_prior_1th_1co",
+      "access_kind": "common_authorship",
+      "from_stage_id": "stage_1th",
+      "to_stage_id": "stage_1co",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Bajo la atribución de ambas cartas a Pablo y la cronología seleccionada, 1 Tesalonicenses ya había sido compuesta antes de 1 Corintios. El mismo responsable podía conocer su texto anterior; no hace falta que lo cite ni se afirma que lo reutilizara.",
+      "assumptions": [
+        "Se aplica a los contenidos atribuidos a Pablo y al orden temporal documentado, no a capas añadidas por recopiladores posteriores."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_59",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Thessalonians&version=NABRE",
+          "locators": [
+            "Introducción: atribución paulina.",
+            "Introducción: fecha y ocasión de la carta anterior."
+          ]
+        },
+        {
+          "id": "src_intro_53",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Corinthians&version=NABRE",
+          "locators": [
+            "Introducción: atribución y responsabilidad de los contenidos.",
+            "Introducción: ocasión y fecha de composición receptora."
+          ]
+        }
+      ],
+      "dependence_status": "not_evaluated"
+    },
+    {
+      "evaluation_id": "access_prior_1th_rom",
+      "access_kind": "common_authorship",
+      "from_stage_id": "stage_1th",
+      "to_stage_id": "stage_rom",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Bajo la atribución de ambas cartas a Pablo y la cronología seleccionada, 1 Tesalonicenses ya había sido compuesta antes de Romanos. El mismo responsable podía conocer su texto anterior; no hace falta que lo cite ni se afirma que lo reutilizara.",
+      "assumptions": [
+        "Se aplica a los contenidos atribuidos a Pablo y al orden temporal documentado, no a capas añadidas por recopiladores posteriores."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_59",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Thessalonians&version=NABRE",
+          "locators": [
+            "Introducción: atribución paulina.",
+            "Introducción: fecha y ocasión de la carta anterior."
+          ]
+        },
+        {
+          "id": "src_intro_52",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Romans&version=NABRE",
+          "locators": [
+            "Introducción: atribución y responsabilidad de los contenidos.",
+            "Introducción: ocasión y fecha de composición receptora."
+          ]
+        }
+      ],
+      "dependence_status": "not_evaluated"
+    },
+    {
+      "evaluation_id": "access_prior_1co_2co",
+      "access_kind": "common_authorship",
+      "from_stage_id": "stage_1co",
+      "to_stage_id": "stage_2co",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "Bajo la atribución de ambas cartas a Pablo y la cronología seleccionada, 1 Corintios ya había sido compuesta antes de 2 Corintios. El mismo responsable podía conocer su texto anterior; no hace falta que lo cite ni se afirma que lo reutilizara.",
+      "assumptions": [
+        "Se aplica a los contenidos atribuidos a Pablo y al orden temporal documentado, no a capas añadidas por recopiladores posteriores."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_53",
+          "url": "https://www.biblegateway.com/passage/intro/?search=1%20Corinthians&version=NABRE",
+          "locators": [
+            "Introducción: atribución paulina.",
+            "Introducción: fecha y ocasión de la carta anterior."
+          ]
+        },
+        {
+          "id": "src_intro_54",
+          "url": "https://www.biblegateway.com/passage/intro/?search=2%20Corinthians&version=NABRE",
+          "locators": [
+            "Introducción: atribución y responsabilidad de los contenidos.",
+            "Introducción: ocasión y fecha de composición receptora."
+          ]
+        }
+      ],
+      "dependence_status": "not_evaluated"
+    },
+    {
+      "evaluation_id": "access_dan_tales_assembly",
+      "access_kind": "collection",
+      "from_stage_id": "stage_dan_tales",
+      "to_stage_id": "stage_dan_assembly",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "La reunión de materiales distinguibles hace plausible su acceso por el recopilador antes de componer la colección. El vínculo termina en la etapa de reunión y conserva separados los autores de los relatos y de las visiones.",
+      "assumptions": [
+        "Se adopta una reunión de antecedentes ya disponibles, incluidos borradores, no una fecha anterior demostrada para cada capítulo ni una biografía de su recopilador."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_34",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Daniel&version=NABRE",
+          "locators": [
+            "Introducción: estructura y diversidad de materiales.",
+            "Introducción: composición en 167–164 a. C."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    },
+    {
+      "evaluation_id": "access_dan_visions_assembly",
+      "access_kind": "collection",
+      "from_stage_id": "stage_dan_visions",
+      "to_stage_id": "stage_dan_assembly",
+      "decision": "admitida_condicionada_a_supuestos",
+      "reason": "La reunión de materiales distinguibles hace plausible su acceso por el recopilador antes de componer la colección. El vínculo termina en la etapa de reunión y conserva separados los autores de los relatos y de las visiones.",
+      "assumptions": [
+        "Se adopta una reunión de antecedentes ya disponibles, incluidos borradores, no una fecha anterior demostrada para cada capítulo ni una biografía de su recopilador."
+      ],
+      "sources": [
+        {
+          "id": "src_intro_34",
+          "url": "https://www.biblegateway.com/passage/intro/?search=Daniel&version=NABRE",
+          "locators": [
+            "Introducción: estructura y diversidad de materiales.",
+            "Introducción: composición en 167–164 a. C."
+          ]
+        }
+      ],
+      "dependence_status": "proposed"
+    }
+  ],
+  "pending_not_promoted_by_compilation": "candidate_dan_collection remains pending: compiler access does not establish original vision-author access.",
+  "historical_truth_certified": false
+}

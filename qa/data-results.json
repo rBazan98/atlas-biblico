@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "books": 73,
+  "stages": 86,
+  "sources": 155,
+  "scenarios": 2,
+  "admitted_per_scenario": 48,
+  "pending_per_scenario": 9,
+  "admitted_without_explicit_quotation": 12,
+  "inferred_access_per_scenario": 11,
+  "common_authorship_does_not_claim_dependence": true,
+  "compiler_access_not_imputed_to_original_authors": true,
+  "english_missing_historical_messages": 0,
+  "negative_checks": [
+    {
+      "case": "unsupported_condition",
+      "rejected": true,
+      "reason": "access_sir_he_gr: admisión con condición sin respaldar."
+    },
+    {
+      "case": "one_evidence_basis",
+      "rejected": true,
+      "reason": "access_sir_he_gr: convergencia insuficientemente registrada."
+    },
+    {
+      "case": "unknown_reference",
+      "rejected": true,
+      "reason": "access_sir_he_gr: referencia inexistente form_does_not_exist en forms."
+    },
+    {
+      "case": "reversed_interval",
+      "rejected": true,
+      "reason": "d_he_composition: intervalo invertido."
+    },
+    {
+      "case": "different_author",
+      "rejected": true,
+      "reason": "access_prior_1th_1co: autoría común con responsables distintos."
+    },
+    {
+      "case": "unresolved_access",
+      "rejected": true,
+      "reason": "access_sir_he_gr: admisión sin fundamento de acceso evaluado."
+    },
+    {
+      "case": "reversed_common_chronology",
+      "rejected": true,
+      "reason": "access_prior_1th_1co: autoría común sin anterioridad delimitada; registrar otra justificación temporal."
+    }
+  ],
+  "historical_truth_certified": false
+}

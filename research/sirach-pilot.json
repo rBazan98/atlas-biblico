@@ -1,0 +1,1274 @@
+{
+  "schema_version": "0.1",
+  "corpus": "Biblia católica",
+  "created_on": "2026-10-06",
+  "policy": {
+    "edge_semantics": "presumed_historical_access",
+    "evidence_threshold": "convergent",
+    "minimum_evidence_lines": 2,
+    "granularity": "composition_stages_with_justified_subdivision",
+    "absence_of_edge_means_impossibility": false,
+    "transitive_access_is_inferred": false
+  },
+  "works": [
+    {
+      "id": "book_gen",
+      "label": "Génesis",
+      "testament": "AT",
+      "canonical_order": 1,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_exo",
+      "label": "Éxodo",
+      "testament": "AT",
+      "canonical_order": 2,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_lev",
+      "label": "Levítico",
+      "testament": "AT",
+      "canonical_order": 3,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_num",
+      "label": "Números",
+      "testament": "AT",
+      "canonical_order": 4,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_deu",
+      "label": "Deuteronomio",
+      "testament": "AT",
+      "canonical_order": 5,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jos",
+      "label": "Josué",
+      "testament": "AT",
+      "canonical_order": 6,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jdg",
+      "label": "Jueces",
+      "testament": "AT",
+      "canonical_order": 7,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_rut",
+      "label": "Rut",
+      "testament": "AT",
+      "canonical_order": 8,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1sa",
+      "label": "1 Samuel",
+      "testament": "AT",
+      "canonical_order": 9,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2sa",
+      "label": "2 Samuel",
+      "testament": "AT",
+      "canonical_order": 10,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1ki",
+      "label": "1 Reyes",
+      "testament": "AT",
+      "canonical_order": 11,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2ki",
+      "label": "2 Reyes",
+      "testament": "AT",
+      "canonical_order": 12,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1ch",
+      "label": "1 Crónicas",
+      "testament": "AT",
+      "canonical_order": 13,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2ch",
+      "label": "2 Crónicas",
+      "testament": "AT",
+      "canonical_order": 14,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_ezr",
+      "label": "Esdras",
+      "testament": "AT",
+      "canonical_order": 15,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_neh",
+      "label": "Nehemías",
+      "testament": "AT",
+      "canonical_order": 16,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_tob",
+      "label": "Tobías",
+      "testament": "AT",
+      "canonical_order": 17,
+      "deuterocanonical_book": true,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jdt",
+      "label": "Judit",
+      "testament": "AT",
+      "canonical_order": 18,
+      "deuterocanonical_book": true,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_est",
+      "label": "Ester",
+      "testament": "AT",
+      "canonical_order": 19,
+      "deuterocanonical_book": false,
+      "scope_notes": "Incluye las secciones griegas deuterocanónicas; requieren evaluación propia de etapas y formas.",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1ma",
+      "label": "1 Macabeos",
+      "testament": "AT",
+      "canonical_order": 20,
+      "deuterocanonical_book": true,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2ma",
+      "label": "2 Macabeos",
+      "testament": "AT",
+      "canonical_order": 21,
+      "deuterocanonical_book": true,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_job",
+      "label": "Job",
+      "testament": "AT",
+      "canonical_order": 22,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_psa",
+      "label": "Salmos",
+      "testament": "AT",
+      "canonical_order": 23,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_pro",
+      "label": "Proverbios",
+      "testament": "AT",
+      "canonical_order": 24,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_ecc",
+      "label": "Eclesiastés",
+      "testament": "AT",
+      "canonical_order": 25,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_sng",
+      "label": "Cantar de los Cantares",
+      "testament": "AT",
+      "canonical_order": 26,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_wis",
+      "label": "Sabiduría",
+      "testament": "AT",
+      "canonical_order": 27,
+      "deuterocanonical_book": true,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_sir",
+      "label": "Eclesiástico",
+      "testament": "AT",
+      "canonical_order": 28,
+      "deuterocanonical_book": true,
+      "scope_notes": "Sirácida o Ben Sira. El prólogo del traductor es fuente histórica asociada, no un libro adicional.",
+      "study_status": "piloto_parcial"
+    },
+    {
+      "id": "book_isa",
+      "label": "Isaías",
+      "testament": "AT",
+      "canonical_order": 29,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jer",
+      "label": "Jeremías",
+      "testament": "AT",
+      "canonical_order": 30,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_lam",
+      "label": "Lamentaciones",
+      "testament": "AT",
+      "canonical_order": 31,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_bar",
+      "label": "Baruc",
+      "testament": "AT",
+      "canonical_order": 32,
+      "deuterocanonical_book": true,
+      "scope_notes": "Incluye la Carta de Jeremías en Baruc 6; su etapa de composición se estudiará separadamente.",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_ezk",
+      "label": "Ezequiel",
+      "testament": "AT",
+      "canonical_order": 33,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_dan",
+      "label": "Daniel",
+      "testament": "AT",
+      "canonical_order": 34,
+      "deuterocanonical_book": false,
+      "scope_notes": "Incluye las secciones deuterocanónicas: oración y cántico, Susana, Bel y el dragón.",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_hos",
+      "label": "Oseas",
+      "testament": "AT",
+      "canonical_order": 35,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jol",
+      "label": "Joel",
+      "testament": "AT",
+      "canonical_order": 36,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_amo",
+      "label": "Amós",
+      "testament": "AT",
+      "canonical_order": 37,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_oba",
+      "label": "Abdías",
+      "testament": "AT",
+      "canonical_order": 38,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jon",
+      "label": "Jonás",
+      "testament": "AT",
+      "canonical_order": 39,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_mic",
+      "label": "Miqueas",
+      "testament": "AT",
+      "canonical_order": 40,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_nam",
+      "label": "Nahúm",
+      "testament": "AT",
+      "canonical_order": 41,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_hab",
+      "label": "Habacuc",
+      "testament": "AT",
+      "canonical_order": 42,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_zep",
+      "label": "Sofonías",
+      "testament": "AT",
+      "canonical_order": 43,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_hag",
+      "label": "Ageo",
+      "testament": "AT",
+      "canonical_order": 44,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_zec",
+      "label": "Zacarías",
+      "testament": "AT",
+      "canonical_order": 45,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_mal",
+      "label": "Malaquías",
+      "testament": "AT",
+      "canonical_order": 46,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_mat",
+      "label": "Mateo",
+      "testament": "NT",
+      "canonical_order": 47,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_mrk",
+      "label": "Marcos",
+      "testament": "NT",
+      "canonical_order": 48,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_luk",
+      "label": "Lucas",
+      "testament": "NT",
+      "canonical_order": 49,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jhn",
+      "label": "Juan",
+      "testament": "NT",
+      "canonical_order": 50,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_act",
+      "label": "Hechos de los Apóstoles",
+      "testament": "NT",
+      "canonical_order": 51,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_rom",
+      "label": "Romanos",
+      "testament": "NT",
+      "canonical_order": 52,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1co",
+      "label": "1 Corintios",
+      "testament": "NT",
+      "canonical_order": 53,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2co",
+      "label": "2 Corintios",
+      "testament": "NT",
+      "canonical_order": 54,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_gal",
+      "label": "Gálatas",
+      "testament": "NT",
+      "canonical_order": 55,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_eph",
+      "label": "Efesios",
+      "testament": "NT",
+      "canonical_order": 56,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_php",
+      "label": "Filipenses",
+      "testament": "NT",
+      "canonical_order": 57,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_col",
+      "label": "Colosenses",
+      "testament": "NT",
+      "canonical_order": 58,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1th",
+      "label": "1 Tesalonicenses",
+      "testament": "NT",
+      "canonical_order": 59,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2th",
+      "label": "2 Tesalonicenses",
+      "testament": "NT",
+      "canonical_order": 60,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1ti",
+      "label": "1 Timoteo",
+      "testament": "NT",
+      "canonical_order": 61,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2ti",
+      "label": "2 Timoteo",
+      "testament": "NT",
+      "canonical_order": 62,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_tit",
+      "label": "Tito",
+      "testament": "NT",
+      "canonical_order": 63,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_phm",
+      "label": "Filemón",
+      "testament": "NT",
+      "canonical_order": 64,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_heb",
+      "label": "Hebreos",
+      "testament": "NT",
+      "canonical_order": 65,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jas",
+      "label": "Santiago",
+      "testament": "NT",
+      "canonical_order": 66,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1pe",
+      "label": "1 Pedro",
+      "testament": "NT",
+      "canonical_order": 67,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2pe",
+      "label": "2 Pedro",
+      "testament": "NT",
+      "canonical_order": 68,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_1jn",
+      "label": "1 Juan",
+      "testament": "NT",
+      "canonical_order": 69,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_2jn",
+      "label": "2 Juan",
+      "testament": "NT",
+      "canonical_order": 70,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_3jn",
+      "label": "3 Juan",
+      "testament": "NT",
+      "canonical_order": 71,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_jud",
+      "label": "Judas",
+      "testament": "NT",
+      "canonical_order": 72,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    },
+    {
+      "id": "book_rev",
+      "label": "Apocalipsis",
+      "testament": "NT",
+      "canonical_order": 73,
+      "deuterocanonical_book": false,
+      "scope_notes": "",
+      "study_status": "sin_estudiar"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_corpus",
+      "title": "USCCB: Books of the Bible",
+      "url": "https://www.usccb.org/offices/new-american-bible/books-bible",
+      "kind": "canonical_catalogue",
+      "consulted_on": "2026-10-06"
+    },
+    {
+      "id": "src_prologue",
+      "title": "Eclesiástico: prólogo del traductor, NRSVCE",
+      "url": "https://www.biblegateway.com/passage/?search=Sirach+1&version=NRSVCE",
+      "kind": "primary_text_in_translation",
+      "consulted_on": "2026-10-06"
+    },
+    {
+      "id": "src_usccb_intro",
+      "title": "USCCB: The Wisdom of Ben Sira, Introduction",
+      "url": "https://bible.usccb.org/bible/sirach/0",
+      "kind": "secondary_synthesis",
+      "consulted_on": "2026-10-06"
+    },
+    {
+      "id": "src_ubs_intro",
+      "title": "United Bible Societies: Translation introduction to Sirach",
+      "url": "https://tips.translation.bible/tip_term/translation-introduction-to-sirach/",
+      "kind": "secondary_synthesis",
+      "consulted_on": "2026-10-06"
+    },
+    {
+      "id": "src_colophon",
+      "title": "Eclesiástico 50:27 y notas, NABRE",
+      "url": "https://bible.usccb.org/bible/sirach/50",
+      "kind": "primary_text_in_translation",
+      "consulted_on": "2026-10-06"
+    },
+    {
+      "id": "src_bensira_repository",
+      "title": "BenSira.org: manuscritos hebreos",
+      "url": "https://www.bensira.org/",
+      "kind": "material_repository",
+      "consulted_on": "2026-10-06"
+    }
+  ],
+  "actors": [
+    {
+      "id": "actor_ben_sira",
+      "label": "Ben Sira",
+      "kind": "identified_person",
+      "life_date_ids": [],
+      "activity_date_ids": [],
+      "claim_ids": [
+        "c_author"
+      ],
+      "notes": "Sin fechas de nacimiento o muerte registradas; no se reconstruye su vida desde la datación del libro."
+    },
+    {
+      "id": "actor_grandson",
+      "label": "Nieto anónimo de Ben Sira",
+      "kind": "anonymous_person",
+      "life_date_ids": [],
+      "activity_date_ids": [
+        "d_arrival"
+      ],
+      "claim_ids": [
+        "c_translator"
+      ],
+      "notes": "La relación familiar procede del prólogo. No demuestra cómo obtuvo el ejemplar."
+    }
+  ],
+  "contexts": [
+    {
+      "id": "context_jerusalem",
+      "label": "Entorno de Ben Sira en Jerusalén",
+      "place": "Jerusalén",
+      "languages": [
+        "he"
+      ],
+      "claim_ids": [
+        "c_jerusalem"
+      ],
+      "notes": "Contexto del responsable según la síntesis consultada; no prueba que todas las partes se redactaran allí."
+    },
+    {
+      "id": "context_egypt",
+      "label": "Actividad del traductor en Egipto",
+      "place": "Egipto",
+      "languages": [
+        "he",
+        "el"
+      ],
+      "claim_ids": [
+        "c_egypt"
+      ],
+      "notes": "No se identifica una institución o ciudad concreta."
+    }
+  ],
+  "stages": [
+    {
+      "id": "stage_sir_he",
+      "work_id": "book_sir",
+      "label": "Colección hebrea antecedente de la traducción",
+      "kind": "composition",
+      "scope": "Obra hebrea atribuida a Ben Sira; alcance exacto de la edición antecedente sin reconstruir.",
+      "languages": [
+        "he"
+      ],
+      "attribution_ids": [
+        "attr_ben_sira"
+      ],
+      "date_ids": [
+        "d_he_composition"
+      ],
+      "context_ids": [
+        "context_jerusalem"
+      ],
+      "claim_ids": [
+        "c_author",
+        "c_he_date",
+        "c_hebrew"
+      ],
+      "historical_status": "working_hypothesis",
+      "notes": "Nodo amplio inicial. No asigna todas las adiciones ni cada versículo actual a Ben Sira."
+    },
+    {
+      "id": "stage_sir_gr",
+      "work_id": "book_sir",
+      "label": "Traducción griega atribuida al nieto",
+      "kind": "translation",
+      "scope": "Traducción de un antecedente hebreo; excluye la atribución automática de ampliaciones posteriores.",
+      "languages": [
+        "el"
+      ],
+      "attribution_ids": [
+        "attr_grandson"
+      ],
+      "date_ids": [
+        "d_translation_activity",
+        "d_translation_completion"
+      ],
+      "context_ids": [
+        "context_egypt"
+      ],
+      "claim_ids": [
+        "c_translator",
+        "c_completion",
+        "c_egypt"
+      ],
+      "historical_status": "working_hypothesis",
+      "notes": "No se identifica con todos los estados posteriores del texto griego."
+    }
+  ],
+  "attributions": [
+    {
+      "id": "attr_ben_sira",
+      "stage_id": "stage_sir_he",
+      "actor_id": "actor_ben_sira",
+      "relation": "composer",
+      "claim_ids": [
+        "c_author"
+      ],
+      "status": "working_attribution"
+    },
+    {
+      "id": "attr_grandson",
+      "stage_id": "stage_sir_gr",
+      "actor_id": "actor_grandson",
+      "relation": "translator",
+      "claim_ids": [
+        "c_translator"
+      ],
+      "status": "working_attribution"
+    }
+  ],
+  "forms": [
+    {
+      "id": "form_sir_he_antecedent",
+      "stage_id": "stage_sir_he",
+      "language": "he",
+      "scope": "Antecedente hebreo pertinente de la traducción; no se conserva identificado el ejemplar usado.",
+      "existence_date_ids": [
+        "d_he_composition"
+      ],
+      "availability_claim_ids": [
+        "c_access"
+      ],
+      "notes": "La colección y su forma accesible se distinguen. Su identidad detallada queda abierta."
+    },
+    {
+      "id": "form_sir_gr_translation",
+      "stage_id": "stage_sir_gr",
+      "language": "el",
+      "scope": "Producto de la traducción atribuida al nieto; alcance de su edición inicial pendiente de cotejo.",
+      "existence_date_ids": [
+        "d_translation_completion"
+      ],
+      "availability_claim_ids": [],
+      "notes": "No se presupone circulación continua después de traducirse."
+    }
+  ],
+  "dates": [
+    {
+      "id": "d_he_composition",
+      "subject_id": "stage_sir_he",
+      "event": "composition",
+      "earliest": {
+        "year": 196,
+        "era": "BCE"
+      },
+      "latest": {
+        "year": 175,
+        "era": "BCE"
+      },
+      "earliest_inclusive": true,
+      "latest_inclusive": true,
+      "kind": "estimated_interval",
+      "claim_ids": [
+        "c_he_date"
+      ],
+      "notes": "Hipótesis de la introducción UBS; depende de interpretar Eclo 50 y el contexto político."
+    },
+    {
+      "id": "d_arrival",
+      "subject_id": "actor_grandson",
+      "event": "arrival_in_egypt",
+      "earliest": {
+        "year": 132,
+        "era": "BCE"
+      },
+      "latest": {
+        "year": 132,
+        "era": "BCE"
+      },
+      "earliest_inclusive": true,
+      "latest_inclusive": true,
+      "kind": "estimated_point",
+      "claim_ids": [
+        "c_arrival"
+      ],
+      "notes": "Conversión histórica propuesta del año regnal del prólogo, no fecha de finalización."
+    },
+    {
+      "id": "d_translation_activity",
+      "subject_id": "stage_sir_gr",
+      "event": "translation_activity",
+      "earliest": {
+        "year": 132,
+        "era": "BCE"
+      },
+      "latest": null,
+      "earliest_inclusive": true,
+      "latest_inclusive": true,
+      "kind": "lower_bound",
+      "claim_ids": [
+        "c_arrival",
+        "c_egypt"
+      ],
+      "notes": "Actividad tras la llegada; no fija el año preciso de inicio o cierre."
+    },
+    {
+      "id": "d_translation_completion",
+      "subject_id": "stage_sir_gr",
+      "event": "translation_completion",
+      "earliest": {
+        "year": 117,
+        "era": "BCE"
+      },
+      "latest": null,
+      "earliest_inclusive": false,
+      "latest_inclusive": true,
+      "kind": "lower_bound",
+      "claim_ids": [
+        "c_completion"
+      ],
+      "notes": "Propuesta de finalización, con extremo posterior desconocido."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_author",
+      "subject_id": "stage_sir_he",
+      "predicate": "responsible",
+      "value": "Atribución a Ben Sira.",
+      "evidence_ids": [
+        "e_colophon",
+        "e_prologue"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": [
+        "No establece que todo el texto actual proceda de una única intervención."
+      ]
+    },
+    {
+      "id": "c_translator",
+      "subject_id": "stage_sir_gr",
+      "predicate": "responsible",
+      "value": "Atribución al nieto anónimo que habla en el prólogo.",
+      "evidence_ids": [
+        "e_prologue"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": []
+    },
+    {
+      "id": "c_hebrew",
+      "subject_id": "form_sir_he_antecedent",
+      "predicate": "language",
+      "value": "Existió un antecedente hebreo de la traducción.",
+      "evidence_ids": [
+        "e_prologue",
+        "e_textual"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": []
+    },
+    {
+      "id": "c_access",
+      "subject_id": "form_sir_he_antecedent",
+      "predicate": "available_to_actor",
+      "value": "Acceso del responsable de la traducción a un antecedente hebreo pertinente.",
+      "evidence_ids": [
+        "e_prologue",
+        "e_textual"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": [
+        "No se conoce el ejemplar concreto ni su contenido íntegro."
+      ]
+    },
+    {
+      "id": "c_he_date",
+      "subject_id": "stage_sir_he",
+      "predicate": "composition_date",
+      "value": "Hipótesis de composición entre 196 y 175 a. C.",
+      "evidence_ids": [
+        "e_dates"
+      ],
+      "status": "working_hypothesis",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": [
+        "Los argumentos sobre el personaje de Eclo 50 y la ausencia de alusiones políticas requieren revisión."
+      ]
+    },
+    {
+      "id": "c_arrival",
+      "subject_id": "actor_grandson",
+      "predicate": "arrival_date",
+      "value": "Llegada a Egipto situada en 132 a. C. por conversión del año regnal.",
+      "evidence_ids": [
+        "e_prologue",
+        "e_dates"
+      ],
+      "status": "working_hypothesis",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": []
+    },
+    {
+      "id": "c_completion",
+      "subject_id": "stage_sir_gr",
+      "predicate": "completion_date",
+      "value": "Propuesta de finalización posterior a 117 a. C.",
+      "evidence_ids": [
+        "e_dates"
+      ],
+      "status": "working_hypothesis",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": [
+        "No se ha documentado un límite superior ni una fecha exacta."
+      ]
+    },
+    {
+      "id": "c_jerusalem",
+      "subject_id": "context_jerusalem",
+      "predicate": "responsible_context",
+      "value": "Ben Sira vinculado con Jerusalén.",
+      "evidence_ids": [
+        "e_place"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": []
+    },
+    {
+      "id": "c_egypt",
+      "subject_id": "context_egypt",
+      "predicate": "translation_context",
+      "value": "El traductor sitúa su actividad en Egipto y declara trabajo entre hebreo y griego.",
+      "evidence_ids": [
+        "e_prologue"
+      ],
+      "status": "supported",
+      "certainty_rationale": "Valoración de trabajo limitada a los fundamentos y objeciones registrados.",
+      "counterarguments": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e_prologue",
+      "kind": "ancient_testimony",
+      "basis_id": "basis_translator_prologue",
+      "summary": "El traductor declara haber trabajado sobre la obra hebrea de su abuelo y sitúa la actividad en Egipto.",
+      "citations": [
+        {
+          "source_id": "src_prologue",
+          "locator": "Prólogo, párrafos sobre traducción y estancia en Egipto."
+        }
+      ],
+      "limitations": [
+        "Testimonio conservado en una tradición textual; no identifica el ejemplar usado.",
+        "No permite identificar individualmente todos los libros llamados Ley, Profetas y otros escritos."
+      ],
+      "supports_claim_ids": [
+        "c_author",
+        "c_translator",
+        "c_hebrew",
+        "c_access",
+        "c_arrival",
+        "c_egypt"
+      ]
+    },
+    {
+      "id": "e_textual",
+      "kind": "published_textual_comparison",
+      "basis_id": "basis_hebrew_greek_correspondence",
+      "summary": "La síntesis consultada informa de correspondencias sustanciales entre testimonios hebreos y el texto griego.",
+      "citations": [
+        {
+          "source_id": "src_usccb_intro",
+          "locator": "Párrafo sobre manuscritos hebreos recuperados y concordancia con el griego."
+        }
+      ],
+      "limitations": [
+        "Corroboración mediante análisis publicado; no se ha efectuado un cotejo propio.",
+        "Los testimonios conservados no se identifican con el ejemplar ni prueban por sí solos su disponibilidad temprana."
+      ],
+      "supports_claim_ids": [
+        "c_hebrew",
+        "c_access"
+      ]
+    },
+    {
+      "id": "e_dates",
+      "kind": "historiographical_argument",
+      "basis_id": "basis_sirach_chronology",
+      "summary": "La introducción propone límites de composición, llegada y finalización, que corresponden a eventos diferentes.",
+      "citations": [
+        {
+          "source_id": "src_ubs_intro",
+          "locator": "The author and translator of the book, párrafos sobre datación."
+        }
+      ],
+      "limitations": [
+        "Hipótesis de síntesis; pendiente de ampliar bibliografía y evaluar reconstrucciones alternativas.",
+        "No cuenta como línea independiente de acceso cuando deriva del prólogo."
+      ],
+      "supports_claim_ids": [
+        "c_he_date",
+        "c_arrival",
+        "c_completion"
+      ]
+    },
+    {
+      "id": "e_colophon",
+      "kind": "ancient_testimony",
+      "basis_id": "basis_author_colophon",
+      "summary": "El colofón atribuye la instrucción escrita a Ben Sira.",
+      "citations": [
+        {
+          "source_id": "src_colophon",
+          "locator": "Eclo 50:27 y nota al colofón."
+        }
+      ],
+      "limitations": [
+        "La atribución no resuelve por sí sola todas las etapas editoriales."
+      ],
+      "supports_claim_ids": [
+        "c_author"
+      ]
+    },
+    {
+      "id": "e_place",
+      "kind": "secondary_historical_synthesis",
+      "basis_id": "basis_ben_sira_context",
+      "summary": "La introducción vincula al autor con Jerusalén.",
+      "citations": [
+        {
+          "source_id": "src_usccb_intro",
+          "locator": "Párrafo sobre el autor y su entorno."
+        }
+      ],
+      "limitations": [
+        "La localización del responsable no demuestra el lugar de cada intervención textual."
+      ],
+      "supports_claim_ids": [
+        "c_jerusalem"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scenario_sir_pilot",
+      "label": "Reconstrucción inicial del antecedente hebreo y traducción del nieto",
+      "active_stage_ids": [
+        "stage_sir_he",
+        "stage_sir_gr"
+      ],
+      "selected_attribution_ids": [
+        "attr_ben_sira",
+        "attr_grandson"
+      ],
+      "selected_date_ids": [
+        "d_he_composition",
+        "d_arrival",
+        "d_translation_activity",
+        "d_translation_completion"
+      ],
+      "selected_claim_ids": [
+        "c_author",
+        "c_translator",
+        "c_hebrew",
+        "c_access",
+        "c_he_date",
+        "c_arrival",
+        "c_completion",
+        "c_jerusalem",
+        "c_egypt"
+      ],
+      "notes": "Escenario de trabajo. No se presume consenso ni se inventan alternativas sin fuentes."
+    }
+  ],
+  "access_evaluations": [
+    {
+      "id": "access_sir_he_gr",
+      "from_stage_id": "stage_sir_he",
+      "to_stage_id": "stage_sir_gr",
+      "source_form_id": "form_sir_he_antecedent",
+      "recipient_attribution_id": "attr_grandson",
+      "scenario_id": "scenario_sir_pilot",
+      "status": "admitida",
+      "checks": {
+        "prior_existence": "supported",
+        "contextual_availability": "supported",
+        "linguistic_access": "supported",
+        "access_before_reception_during_activity": "supported"
+      },
+      "check_evidence": {
+        "prior_existence": [
+          "e_prologue",
+          "e_dates",
+          "e_textual"
+        ],
+        "contextual_availability": [
+          "e_prologue"
+        ],
+        "linguistic_access": [
+          "e_prologue",
+          "e_textual"
+        ],
+        "access_before_reception_during_activity": [
+          "e_prologue"
+        ]
+      },
+      "evidence_lines": [
+        {
+          "basis_id": "basis_translator_prologue",
+          "evidence_ids": [
+            "e_prologue"
+          ],
+          "contribution": "Testimonio específico de acceso durante la traducción."
+        },
+        {
+          "basis_id": "basis_hebrew_greek_correspondence",
+          "evidence_ids": [
+            "e_textual"
+          ],
+          "contribution": "Corroboración textual publicada de un antecedente hebreo pertinente."
+        }
+      ],
+      "independence_rationale": "Se distinguen el testimonio del traductor y las correspondencias entre tradiciones textuales. No se cuentan las síntesis modernas como testimonios independientes ni se atribuye al cotejo una prueba autónoma de disponibilidad.",
+      "route": "Acceso al antecedente hebreo declarado por el responsable de la traducción; procedencia material del ejemplar desconocida.",
+      "scope": "Acceso a una forma antecedente de la obra, sin identificarla con cada versículo del libro actual.",
+      "access_time_description": "Antes de producir los segmentos griegos correspondientes, durante la actividad del traductor; año exacto desconocido.",
+      "justification": "Admisión de trabajo por convergencia testimonial y textual. El orden relativo se apoya en la traducción declarada y no solo en intervalos cronológicos.",
+      "limitations": [
+        "No se reconstruye el ejemplar completo.",
+        "No acredita acceso del traductor a cada ampliación posterior.",
+        "No identifica una institución, ciudad o trayecto del ejemplar.",
+        "Valoración inicial basada en texto primario traducido y síntesis publicadas; no es un cotejo crítico exhaustivo."
+      ],
+      "dependence": {
+        "status": "translation_attested",
+        "evidence_ids": [
+          "e_prologue"
+        ],
+        "notes": "Uso efectivo adicional documentado; el significado de la flecha sigue siendo accesibilidad."
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#2f4c41">
+  <title>Atlas textual · Biblia católica</title>
+  <meta name="description" content="Explora las etapas de composición de los 73 libros de la Biblia católica, sus dataciones y las conexiones de acceso histórico respaldadas por evidencia.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23132639'/%3E%3Cpath d='M6 10h9m-9 12h19M15 10q3 0 4 5t6 7' fill='none' stroke='%23e9b971' stroke-width='2'/%3E%3Ccircle cx='15' cy='10' r='3' fill='%23f7f8fa'/%3E%3Ccircle cx='25' cy='22' r='3' fill='%23f7f8fa'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="language.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="explore.css">
+  <script src="i18n.js" defer></script>
+  <script src="overview.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="experience.js" defer></script>
+  <script src="explore.js" defer></script>
+</head>
+<body class="overview-view">
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Atlas textual, inicio"><span class="brand-icon" aria-hidden="true">✣</span><span>Atlas textual<small>BIBLIA CATÓLICA</small></span></a>
+    <div class="top-context">Composición · transmisión · acceso histórico</div>
+    <nav aria-label="Información y exportaciones"><label class="language-control"><span class="sr-only">Idioma</span><select id="language" aria-label="Idioma"><option value="es">Español</option><option value="en">English</option></select></label><button id="method-button" class="quiet">Criterio y fuentes</button><button id="export-button" class="outline">Exportar</button></nav>
+  </header>
+  <main class="workspace">
+    <aside id="catalogue" class="catalogue" aria-label="Catálogo de libros">
+      <button id="catalogue-close" class="drawer-close" aria-label="Cerrar catálogo">×</button>
+      <div class="catalogue-heading"><h1>Explorar el corpus</h1><span id="book-count" class="count">73</span></div>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar libro o etapa…" aria-label="Buscar libro o etapa"></label>
+      <div class="segmented" role="group" aria-label="Testamento"><button data-testament="all" class="active" aria-pressed="true">Todos</button><button data-testament="AT" aria-pressed="false">AT</button><button data-testament="NT" aria-pressed="false">NT</button></div>
+      <div id="book-list" class="book-list"></div>
+      <div class="catalogue-foot"><span class="swatch admitted"></span>Acceso evaluado por escenario<br><small>Sin conexión no significa sin acceso.</small></div>
+    </aside>
+    <section class="graph-area" aria-label="Visualización de textos bíblicos">
+      <div class="graph-heading"><div><p class="eyebrow">HISTORIA DE LOS TEXTOS</p><h2>Una biblioteca.<br> <em>Muchas voces.</em></h2><p class="graph-intro">Abre un libro, sigue una conexión y descubre el contexto que los reúne.</p><div class="free-entry"><button id="open-finder" class="thread-primary" disabled>Buscar un libro <svg class="thread-arrow" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="m12 12 4 4" stroke="currentColor" stroke-width="1.3"/></svg></button><span>O empieza por</span><button data-entry-book="book_gen">Génesis</button><button data-entry-book="book_rom">Romanos</button><button data-entry-book="book_sir">Eclesiástico</button></div></div><div class="stats" id="stats" aria-live="polite"></div></div>
+      <div class="toolbar">
+        <div class="segmented modes" role="group" aria-label="Vista del grafo"><button data-mode="overview" class="active" aria-pressed="true">General</button><button data-mode="stages" aria-pressed="false">Etapas</button><button data-mode="books" aria-pressed="false">Libros</button></div>
+        <button id="catalogue-toggle" class="catalogue-toggle" aria-expanded="false" aria-controls="catalogue"><span aria-hidden="true">⌕</span> Catálogo</button>
+        <button id="guide-button" class="guide-button" disabled><span aria-hidden="true">◎</span> Cómo explorar</button>
+        <button id="presentation" class="presentation-toggle overview-only" aria-pressed="false">Presentación</button>
+        <details id="map-options" class="map-options"><summary>Afinar el mapa <span aria-hidden="true">⌄</span></summary><div class="map-options-body">
+          <label class="scenario-label">Escenario <select id="scenario" aria-label="Escenario histórico"></select></label>
+          <label class="check"><input id="show-pending" type="checkbox"> Mostrar candidaturas</label>
+          <label class="check overview-only"><input id="show-labels" type="checkbox" checked> Etiquetas</label><button id="reset" class="quiet">Restablecer</button>
+          <div class="exploration"><label>Recorrido <select id="tour" aria-label="Recorrido del grafo"><option value="all">Todo el corpus</option><option value="reception">Recepción y transmisión</option><option value="sirach">Eclesiástico · transmisión</option><option value="gospels">Evangelios y sus antecedentes</option></select></label><label class="foundation-label">Fundamento <select id="foundation" aria-label="Filtrar por fundamento del acceso"><option value="all">Todas las vías</option><option value="inferred">Inferencias sin cita explícita</option><option value="reception">Recepción y traducción</option></select></label><label class="check"><input id="neighborhood" type="checkbox"> Conexiones de la selección</label></div>
+        </div></details>
+      </div>
+      <nav id="free-bar" class="free-bar" aria-label="Tu exploración"><div class="history-controls"><button id="explore-back" aria-label="Volver al punto anterior" disabled>←</button><button id="explore-forward" aria-label="Avanzar al punto siguiente" disabled>→</button></div><div id="explore-trail" class="explore-trail"></div><button id="finder-button" class="finder-button" disabled><span>Buscar</span><kbd>/</kbd></button></nav>
+      <div id="filter-summary" class="filter-summary" hidden></div>
+      <div id="thread-return" class="thread-return" hidden></div>
+      <div class="graph-notice" id="graph-notice">Las bandas representan estimaciones de composición. Las flechas representan acceso respaldado.</div>
+      <div class="graph-scroll" id="graph-scroll" tabindex="0" role="region" aria-label="Líneas temporales; usa el desplazamiento para recorrerlas">
+        <div class="axis-sticky" id="axis-sticky"></div>
+        <svg id="graph" role="group" aria-label="Grafo dirigido de etapas textuales"></svg>
+        <div id="graph-empty" class="empty" hidden>No hay etapas que coincidan con esta búsqueda.</div>
+      </div>
+      <p class="map-hint overview-only">Selecciona para consultar fuentes · Desplázate para explorar · Usa + para acercar</p>
+      <div class="overview-key overview-only" id="overview-key" aria-label="Familias del corpus"></div>
+      <p class="overview-semantics overview-only">Una flecha indica acceso al contenido especificado; no prueba dependencia directa. Sin conexión no significa sin acceso.</p>
+      <div class="graph-footer"><div class="legend"><span><i class="legend-line"></i> Recepción / traducción</span><span><i class="legend-line inferred"></i> Acceso inferido</span><span><i class="legend-line pending"></i> Candidatura pendiente</span><span class="timeline-only"><i class="legend-band"></i> Datación propuesta</span><span class="timeline-only"><i class="legend-open"></i> Límite abierto</span></div><div class="zoom"><button id="zoom-out" aria-label="Alejar el grafo">−</button><button id="zoom-fit" aria-label="Ajustar al mapa"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 2H2v4m8-4h4v4M2 10v4h4m8-4v4h-4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></button><span id="zoom-value">100 %</span><button id="zoom-in" aria-label="Acercar el grafo">+</button></div></div>
+      <div class="atlas-appendix"><p>Un libro abre otros caminos. Puedes seguirlos a tu manera.</p><button id="education-button" disabled>Apéndice educativo <svg class="thread-arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></button></div>
+    </section>
+    <aside id="detail-panel" class="detail-panel" aria-label="Detalle de la selección"><div class="detail-placeholder"><p class="eyebrow">UNA RECONSTRUCCIÓN ABIERTA</p><h2>Un texto, varias historias.</h2><p>Selecciona un libro, una etapa o una conexión para consultar las fechas, las atribuciones y el fundamento del acceso.</p><div class="detail-rule"></div><p class="muted">El grafo distingue lo documentado, las hipótesis de trabajo y lo que aún no podemos determinar.</p><button id="pilot-focus" class="primary">Explorar el piloto de Eclesiástico</button></div></aside>
+  </main>
+  <dialog id="method-dialog"><div class="dialog-head"><h2>Criterio y fuentes</h2><button class="dialog-close" aria-label="Cerrar">×</button></div><div id="method-content"></div></dialog>
+  <dialog id="guide-dialog" class="guide-dialog" aria-labelledby="guide-title"><div class="dialog-head"><p class="eyebrow">TU BRÚJULA</p><button class="dialog-close" aria-label="Cerrar">×</button></div><h2 id="guide-title">Cómo leer el mapa.</h2><p>Cada elemento tiene un significado. Puedes profundizar al seleccionarlo.</p><div class="compass-lessons"><article><span class="compass-symbol" aria-hidden="true">○</span><div><h3>Abre un libro</h3><p>Cada círculo reúne sus etapas. Pulsa uno para descubrir quién pudo componerlas y cuándo.</p></div></article><article><span class="compass-symbol" aria-hidden="true">↗</span><div><h3>Sigue una conexión</h3><p>Pulsa su etiqueta: encontrarás la razón del acceso, los supuestos y las fuentes. Una cita es solo una vía posible.</p></div></article><article><span class="compass-symbol" aria-hidden="true">≈</span><div><h3>Deja espacio a la duda</h3><p>Etapas muestra fechas estimadas. Afinar el mapa permite comparar escenarios y ver candidaturas pendientes, sin flecha.</p></div></article></div><div class="guide-actions"><button class="dialog-close guide-free">Volver a explorar</button><button id="guide-start" class="thread-link">Abrir apéndice educativo</button></div><p class="guide-shortcut">Arrastra el fondo para recorrer el mapa; usa + para acercarte. Esc te devuelve al mapa.</p></dialog>
+  <dialog id="education-dialog" class="education-dialog" aria-labelledby="education-title"><div class="dialog-head"><h2 id="education-title">Apéndice educativo</h2><button class="dialog-close" aria-label="Cerrar">×</button></div><p>Recorridos guiados para practicar la lectura del atlas.</p><div class="welcome-actions"><button id="first-thread" class="thread-primary" disabled><span>Sigue tu primer hilo</span><span aria-hidden="true">↗</span></button><button id="threads-button" class="thread-link" disabled>Elige otra historia <span aria-hidden="true">→</span></button></div><p id="thread-status" class="thread-memory">A tu ritmo · Sin conocimientos previos</p><section id="thread-library" class="thread-library" aria-labelledby="thread-library-title"><div class="library-heading"><h3 id="thread-library-title">Elige un hilo</h3></div><div id="thread-cards" class="thread-cards"></div><p class="library-note">Tu recorrido se guarda solo en este navegador. Puedes repetir cualquier hilo.</p></section></dialog>
+  <dialog id="finder-dialog" class="finder-dialog" aria-labelledby="finder-title"><div class="dialog-head"><h2 id="finder-title">¿Qué texto quieres explorar?</h2><button class="dialog-close" aria-label="Cerrar">×</button></div><label class="finder-search"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="m12 12 4 4" stroke="currentColor" stroke-width="1.3"/></svg><input id="finder-input" type="search" autocomplete="off" role="combobox" aria-label="Buscar en los 73 libros" aria-autocomplete="list" aria-expanded="true" aria-controls="finder-results" placeholder="Nombre o abreviatura del libro…"></label><p id="finder-count" class="finder-count" role="status"></p><div id="finder-results" role="listbox" aria-label="Resultados de libros"></div><p class="finder-help">↑ ↓ para elegir · Intro para abrir · Esc para volver</p></dialog>
+  <dialog id="share-dialog" class="share-dialog" aria-labelledby="share-title"><div class="dialog-head"><h2 id="share-title">Volver a este punto</h2><button class="dialog-close" aria-label="Cerrar">×</button></div><p>El enlace conserva el texto, la vista, los filtros y el escenario histórico.</p><input id="share-url" type="text" readonly aria-label="Enlace a esta exploración"><button id="share-copy" class="thread-primary">Copiar enlace</button><p id="share-feedback" role="status"></p></dialog>
+  <dialog id="export-dialog"><div class="dialog-head"><h2>Exportar el proyecto</h2><button class="dialog-close" aria-label="Cerrar">×</button></div><p>Los gráficos conservan la vista y el escenario seleccionados. JSON y CSV incluyen todo el registro en español, con identificadores estables.</p><div class="export-options"><button id="download-svg">Grafo visible · SVG</button><button id="download-png">Grafo visible · PNG</button><button id="download-json">Registro documentado · JSON</button><button id="download-csv">Evaluaciones · CSV</button><a href="proyecto.zip" download>Archivos del proyecto · ZIP</a></div><p class="muted">Los gráficos incluyen el criterio de acceso y el nombre del escenario.</p></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript><p>Activa JavaScript para explorar el grafo. Puedes descargar el <a href="registro.json">registro documentado</a>.</p></noscript>
+</body>
+</html>

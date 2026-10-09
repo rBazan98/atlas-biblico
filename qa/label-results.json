@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "layouts": [
+    {
+      "lang": "es",
+      "pending": false,
+      "overlap_count": 0
+    },
+    {
+      "lang": "es",
+      "pending": true,
+      "overlap_count": 0
+    },
+    {
+      "lang": "en",
+      "pending": false,
+      "overlap_count": 0
+    },
+    {
+      "lang": "en",
+      "pending": true,
+      "overlap_count": 0
+    }
+  ]
+}

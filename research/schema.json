@@ -1,0 +1,1085 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.2"
+    },
+    "corpus": {
+      "const": "Biblia católica"
+    },
+    "created_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "policy": {
+      "type": "object",
+      "properties": {
+        "edge_semantics": {
+          "const": "presumed_historical_access"
+        },
+        "evidence_threshold": {
+          "const": "convergent"
+        },
+        "minimum_evidence_lines": {
+          "type": "integer",
+          "minimum": 2
+        },
+        "granularity": {
+          "const": "composition_stages_with_justified_subdivision"
+        },
+        "absence_of_edge_means_impossibility": {
+          "const": false
+        },
+        "transitive_access_is_inferred": {
+          "const": false
+        }
+      },
+      "required": [
+        "edge_semantics",
+        "evidence_threshold",
+        "minimum_evidence_lines",
+        "granularity",
+        "absence_of_edge_means_impossibility",
+        "transitive_access_is_inferred"
+      ],
+      "additionalProperties": false
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/work"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/actor"
+      }
+    },
+    "contexts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/context"
+      }
+    },
+    "stages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/stage"
+      }
+    },
+    "attributions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/attribution"
+      }
+    },
+    "forms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/form"
+      }
+    },
+    "dates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/date"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scenario"
+      }
+    },
+    "access_evaluations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/access_evaluation"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "corpus",
+    "created_on",
+    "policy",
+    "works",
+    "sources",
+    "actors",
+    "contexts",
+    "stages",
+    "attributions",
+    "forms",
+    "dates",
+    "claims",
+    "evidence",
+    "scenarios",
+    "access_evaluations"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Registro de accesibilidad histórica bíblica, versión inicial",
+  "$defs": {
+    "bound": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "era": {
+          "enum": [
+            "BCE",
+            "CE"
+          ]
+        }
+      },
+      "required": [
+        "year",
+        "era"
+      ],
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "testament": {
+          "enum": [
+            "AT",
+            "NT"
+          ]
+        },
+        "canonical_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "deuterocanonical_book": {
+          "type": "boolean"
+        },
+        "scope_notes": {
+          "type": "string"
+        },
+        "study_status": {
+          "enum": [
+            "sin_estudiar",
+            "piloto_parcial",
+            "estudiado"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "testament",
+        "canonical_order",
+        "deuterocanonical_book",
+        "scope_notes",
+        "study_status"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "kind": {
+          "enum": [
+            "canonical_catalogue",
+            "primary_text_in_translation",
+            "primary_text",
+            "secondary_synthesis",
+            "scholarly_study",
+            "material_repository"
+          ]
+        },
+        "consulted_on": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "url",
+        "kind",
+        "consulted_on"
+      ],
+      "additionalProperties": false
+    },
+    "actor": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "identified_person",
+            "anonymous_person",
+            "group",
+            "unknown"
+          ]
+        },
+        "life_date_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "activity_date_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "kind",
+        "life_date_ids",
+        "activity_date_ids",
+        "claim_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "place": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "place",
+        "languages",
+        "claim_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "stage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "work_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "composition",
+            "collection",
+            "redaction",
+            "revision",
+            "translation"
+          ]
+        },
+        "scope": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attribution_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "date_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "context_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "historical_status": {
+          "enum": [
+            "working_hypothesis",
+            "disputed",
+            "well_supported"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "work_id",
+        "label",
+        "kind",
+        "scope",
+        "languages",
+        "attribution_ids",
+        "date_ids",
+        "context_ids",
+        "claim_ids",
+        "historical_status",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "attribution": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "stage_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "actor_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "relation": {
+          "enum": [
+            "composer",
+            "collector",
+            "redactor",
+            "translator",
+            "unknown"
+          ]
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "working_attribution",
+            "disputed",
+            "well_supported"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "stage_id",
+        "actor_id",
+        "relation",
+        "claim_ids",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "form": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "stage_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": "string"
+        },
+        "existence_date_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "availability_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "stage_id",
+        "language",
+        "scope",
+        "existence_date_ids",
+        "availability_claim_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "date": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "subject_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "event": {
+          "type": "string"
+        },
+        "earliest": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/bound"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "latest": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/bound"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "earliest_inclusive": {
+          "type": "boolean"
+        },
+        "latest_inclusive": {
+          "type": "boolean"
+        },
+        "kind": {
+          "enum": [
+            "estimated_interval",
+            "estimated_point",
+            "lower_bound",
+            "upper_bound",
+            "unknown"
+          ]
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "subject_id",
+        "event",
+        "earliest",
+        "latest",
+        "earliest_inclusive",
+        "latest_inclusive",
+        "kind",
+        "claim_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "subject_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "predicate": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "enum": [
+            "supported",
+            "working_hypothesis",
+            "disputed",
+            "unassessed"
+          ]
+        },
+        "certainty_rationale": {
+          "type": "string"
+        },
+        "counterarguments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "subject_id",
+        "predicate",
+        "value",
+        "evidence_ids",
+        "status",
+        "certainty_rationale",
+        "counterarguments"
+      ],
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "source_id",
+        "locator"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "kind": {
+          "enum": [
+            "ancient_testimony",
+            "published_textual_comparison",
+            "historiographical_argument",
+            "secondary_historical_synthesis",
+            "documented_material",
+            "linguistic_analysis",
+            "network_evidence"
+          ]
+        },
+        "basis_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "citations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/citation"
+          },
+          "minItems": 1
+        },
+        "supports_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "basis_id",
+        "summary",
+        "citations",
+        "supports_claim_ids",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "scenario": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "label": {
+          "type": "string"
+        },
+        "active_stage_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "selected_attribution_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "selected_date_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "selected_claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "active_stage_ids",
+        "selected_attribution_ids",
+        "selected_date_ids",
+        "selected_claim_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_line": {
+      "type": "object",
+      "properties": {
+        "basis_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "contribution": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "basis_id",
+        "evidence_ids",
+        "contribution"
+      ],
+      "additionalProperties": false
+    },
+    "dependence": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "not_evaluated",
+            "proposed",
+            "supported",
+            "translation_attested",
+            "not_supported"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "evidence_ids",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "access_evaluation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "from_stage_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "to_stage_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "source_form_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "recipient_attribution_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "scenario_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "status": {
+          "enum": [
+            "admitida",
+            "pendiente",
+            "incompatible",
+            "sin_evaluar"
+          ]
+        },
+        "checks": {
+          "type": "object",
+          "properties": {
+            "prior_existence": {
+              "enum": [
+                "supported",
+                "uncertain",
+                "incompatible",
+                "not_evaluated"
+              ]
+            },
+            "contextual_availability": {
+              "enum": [
+                "supported",
+                "uncertain",
+                "incompatible",
+                "not_evaluated"
+              ]
+            },
+            "linguistic_access": {
+              "enum": [
+                "supported",
+                "uncertain",
+                "incompatible",
+                "not_evaluated"
+              ]
+            },
+            "access_before_reception_during_activity": {
+              "enum": [
+                "supported",
+                "uncertain",
+                "incompatible",
+                "not_evaluated"
+              ]
+            }
+          },
+          "required": [
+            "prior_existence",
+            "contextual_availability",
+            "linguistic_access",
+            "access_before_reception_during_activity"
+          ],
+          "additionalProperties": false
+        },
+        "check_evidence": {
+          "type": "object",
+          "properties": {
+            "prior_existence": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              "uniqueItems": true
+            },
+            "contextual_availability": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              "uniqueItems": true
+            },
+            "linguistic_access": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              "uniqueItems": true
+            },
+            "access_before_reception_during_activity": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9_]*$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "prior_existence",
+            "contextual_availability",
+            "linguistic_access",
+            "access_before_reception_during_activity"
+          ],
+          "additionalProperties": false
+        },
+        "evidence_lines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence_line"
+          }
+        },
+        "independence_rationale": {
+          "type": "string"
+        },
+        "route": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "access_time_description": {
+          "type": "string"
+        },
+        "justification": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dependence": {
+          "$ref": "#/$defs/dependence"
+        },
+        "access_basis": {
+          "$ref": "#/$defs/access_basis"
+        }
+      },
+      "required": [
+        "id",
+        "from_stage_id",
+        "to_stage_id",
+        "source_form_id",
+        "recipient_attribution_id",
+        "scenario_id",
+        "status",
+        "checks",
+        "check_evidence",
+        "evidence_lines",
+        "independence_rationale",
+        "route",
+        "scope",
+        "access_time_description",
+        "justification",
+        "limitations",
+        "dependence",
+        "access_basis"
+      ],
+      "additionalProperties": false
+    },
+    "access_basis": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "textual_reception",
+            "translation",
+            "common_authorship",
+            "literary_transmission",
+            "editorial_continuity",
+            "collection",
+            "unresolved"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "route_certainty": {
+          "enum": [
+            "attested",
+            "inferred",
+            "unknown"
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "label",
+        "reason",
+        "assumptions",
+        "route_certainty"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

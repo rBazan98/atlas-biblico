@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "tested_url_path": "/atlas-qa-unpacked/",
+  "zip_integrity": true,
+  "index_at_root": true,
+  "new_overview_assets_included": true,
+  "project_zip_download": true,
+  "downloaded_registry_schema_version": "0.2",
+  "downloaded_csv_includes_access_grounds_and_assumptions": true,
+  "english_spanish_ui": true,
+  "circular_book_nodes": 73,
+  "labeled_admitted_connections": 48,
+  "inferred_access_connections": 11,
+  "admitted_without_explicit_quotation": 12,
+  "stages": 86,
+  "access_reason_and_assumptions_visible": true,
+  "actual_use_not_assessed_for_common_authorship": true,
+  "presentation_mode": true,
+  "browser_errors": [],
+  "failed_http_responses": [],
+  "private_source_captures_excluded": true
+}

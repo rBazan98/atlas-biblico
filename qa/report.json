@@ -1,0 +1,133 @@
+{
+  "version": "0.2",
+  "application_version": "1.1.0-preview.2",
+  "schema_version": "0.2",
+  "created_on": "2026-10-07",
+  "data": {
+    "passed": true,
+    "books": 73,
+    "stages": 86,
+    "sources": 155,
+    "scenarios": 2,
+    "admitted_per_scenario": 48,
+    "pending_per_scenario": 9,
+    "admitted_without_explicit_quotation": 12,
+    "inferred_access_per_scenario": 11,
+    "common_authorship_does_not_claim_dependence": true,
+    "compiler_access_not_imputed_to_original_authors": true,
+    "english_missing_historical_messages": 0,
+    "negative_checks": [
+      {
+        "case": "unsupported_condition",
+        "rejected": true,
+        "reason": "access_sir_he_gr: admisión con condición sin respaldar."
+      },
+      {
+        "case": "one_evidence_basis",
+        "rejected": true,
+        "reason": "access_sir_he_gr: convergencia insuficientemente registrada."
+      },
+      {
+        "case": "unknown_reference",
+        "rejected": true,
+        "reason": "access_sir_he_gr: referencia inexistente form_does_not_exist en forms."
+      },
+      {
+        "case": "reversed_interval",
+        "rejected": true,
+        "reason": "d_he_composition: intervalo invertido."
+      },
+      {
+        "case": "different_author",
+        "rejected": true,
+        "reason": "access_prior_1th_1co: autoría común con responsables distintos."
+      },
+      {
+        "case": "unresolved_access",
+        "rejected": true,
+        "reason": "access_sir_he_gr: admisión sin fundamento de acceso evaluado."
+      },
+      {
+        "case": "reversed_common_chronology",
+        "rejected": true,
+        "reason": "access_prior_1th_1co: autoría común sin anterioridad delimitada; registrar otra justificación temporal."
+      }
+    ],
+    "historical_truth_certified": false
+  },
+  "browser": {
+    "passed": true,
+    "browser_errors": [],
+    "flows": [
+      "73 circular book nodes and 48 access-ground labels",
+      "non-overlapping overview labels",
+      "11 inferred-access connections and grounds filter",
+      "same-author access without a quotation or claimed reuse",
+      "Daniel compilation receiver distinct from prior authors",
+      "bilingual access reasons and assumptions",
+      "presentation mode",
+      "overview SVG/PNG exports",
+      "pointer panning and fit",
+      "keyboard drawer focus",
+      "mobile catalogue and detail drawers",
+      "73-book catalogue",
+      "86-stage corpus",
+      "book/stage views and internal connections",
+      "admitted/candidate distinction",
+      "scenario authorship/dates",
+      "English/Spanish round trip",
+      "search and filters",
+      "neighborhood",
+      "keyboard selection",
+      "SVG/PNG/JSON/CSV/ZIP downloads",
+      "mobile overflow",
+      "GitHub Pages repository path prefix"
+    ]
+  },
+  "experience": {
+    "passed": true,
+    "browser_errors": [],
+    "flows": [
+      "voluntary onboarding without automatic popup",
+      "keyboard guide and focus return",
+      "direct stage selection advances lesson",
+      "exact view restoration on pause",
+      "progress resumes after reload without forced opening",
+      "ES/EN guided copy",
+      "scoped translation question with corrective feedback",
+      "same-author access remains distinct from actual use",
+      "pending connection keeps no arrowhead",
+      "scenario-specific assessment identifiers",
+      "completion persistence and replay",
+      "closed-drawer guide recovery",
+      "320/390/768 px layouts",
+      "reduced motion",
+      "storage-denied fallback"
+    ]
+  },
+  "free_exploration": {
+    "passed": true,
+    "browser_errors": [],
+    "flows": [
+      "free default and isolated educational appendix",
+      "search by keyboard and localized name",
+      "empty search feedback",
+      "directional assessment groups",
+      "keyboard detail tabs and sources",
+      "map/timeline preserve selection",
+      "history restores selection/view/zoom/pan/scroll/tab",
+      "native browser back and forward",
+      "share link clipboard and direct reload",
+      "scenario switch preserves qualified relationship",
+      "candidate remains without arrowhead",
+      "visible and dismissible filter chips",
+      "history branches discard obsolete forward entries",
+      "book context in time",
+      "320/390/768 px navigation",
+      "mobile sheet leaves map visible",
+      "invalid-link recovery"
+    ]
+  },
+  "deployment": "Static GitHub Pages files; this validation report does not certify remote publication.",
+  "source_captures": "Excluded from distribution; public metadata only."
+}

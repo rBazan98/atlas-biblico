@@ -1,0 +1,7 @@
+{
+  "prepared_on": "2026-10-09",
+  "application_version": "1.1.0-preview.2",
+  "source_commit": "c3e3b05839d412347473f96ecb43ee88d486b9e2",
+  "source_branch": "docs/free-navigation-demos",
+  "includes": "all tracked files except proyecto.zip; includes demos"
+}
